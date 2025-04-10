@@ -56,3 +56,10 @@
 - Repackaged with all OCR dependencies installed:
   - ✅ `pytesseract` and `Pillow` in `requirements.txt`
   - ✅ `tesseract-ocr` installed in Dockerfile
+
+## [1.0.2f-dev] - 2024-04-10
+### 🛠️ Updates
+- Added `pytest` to `requirements.txt` for testing
+- Passed `INSTALL_TESSERACT` flag to bot container in `docker-compose.yml`
+- Updated `.env` and `.env.example` to include `INSTALL_TESSERACT`
+- Documented `pytest` usage in `MANUAL.md`

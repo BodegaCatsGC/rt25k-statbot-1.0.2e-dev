@@ -3,5 +3,5 @@ discord.py
 python-dotenv
 pytesseract
 Pillow
-pytest  # Added for testing
+pytest  # Ensure pytest is included for testing
 # Note: Install `tesseract-ocr` as a system dependency

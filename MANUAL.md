@@ -79,7 +79,7 @@ Also synced to:
 
 ### Run tests
 ```bash
-pytest
+pytest  # Ensure pytest is installed via requirements.txt
 ```
 
 ### Health check

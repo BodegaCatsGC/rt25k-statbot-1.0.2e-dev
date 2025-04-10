@@ -18,7 +18,7 @@ services:
     depends_on:
       - dashboard  # Ensure dashboard starts first
     environment:
-      - INSTALL_TESSERACT=true  # Added flag for tesseract installation
+      - INSTALL_TESSERACT=true  # Ensure this flag is passed to the container
 
   dashboard:
     build:
