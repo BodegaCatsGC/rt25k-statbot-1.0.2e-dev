@@ -1,5 +1,6 @@
 from flask import Flask, request, render_template, session, redirect, url_for
-Flask
+import os  # Added missing import
+
 app = Flask(__name__)
 
 @app.route("/")
@@ -11,7 +12,6 @@ if __name__ == "__main__":
 
 app.secret_key = os.getenv('FLASK_SECRET_KEY', 'supersecret')
 
-from flask import session, redirect, url_for
 import requests
 
 DISCORD_CLIENT_ID = os.getenv("DISCORD_CLIENT_ID")

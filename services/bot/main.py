@@ -7,7 +7,11 @@ from bot.ocr import process_image  # Use real OCR logic
 # Load environment
 load_dotenv()
 TOKEN = os.getenv("DISCORD_TOKEN")
-WATCH_CHANNEL_ID = int(os.getenv("WATCH_CHANNEL_ID", "0"))
+WATCH_CHANNEL_ID = os.getenv("WATCH_CHANNEL_ID")
+if WATCH_CHANNEL_ID:
+    WATCH_CHANNEL_ID = int(WATCH_CHANNEL_ID)
+else:
+    WATCH_CHANNEL_ID = 0
 
 intents = discord.Intents.default()
 intents.messages = True
