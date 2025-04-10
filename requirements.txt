@@ -4,4 +4,4 @@ python-dotenv
 pytesseract
 Pillow
 pytest  # Ensure pytest is included for testing
-# Note: Install `tesseract-ocr` as a system dependency
+# Note: `tesseract-ocr` must be installed as a system dependency.

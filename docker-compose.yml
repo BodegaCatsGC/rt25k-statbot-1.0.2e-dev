@@ -30,3 +30,5 @@ services:
       - "5000:5000"
     volumes:
       - ./output:/app/output
+    env_file:
+      - .env
