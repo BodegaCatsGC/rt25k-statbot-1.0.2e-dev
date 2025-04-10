@@ -1,6 +1,6 @@
 # 🚀 RT25K StatBot Release
 
-Version: **1.0.1d**  
+Version: **1.0.2e-dev**  
 Date: **2024-04-10**
 
 ## 🌐 Dashboard Fix

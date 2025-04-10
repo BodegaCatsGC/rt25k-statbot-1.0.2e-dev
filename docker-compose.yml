@@ -15,6 +15,10 @@ services:
       interval: 30s
       timeout: 10s
       retries: 3
+    depends_on:
+      - dashboard  # Ensure dashboard starts first
+    environment:
+      - INSTALL_TESSERACT=true  # Added flag for tesseract installation
 
   dashboard:
     build:

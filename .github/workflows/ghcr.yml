@@ -3,7 +3,7 @@ name: Publish Docker Image
 on:
   push:
     branches:
-      - main
+      - main  # Ensure workflow triggers only on main branch
 
 jobs:
   build-and-push:
